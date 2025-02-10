@@ -1,4 +1,4 @@
-# 📦 GhostStorage
+# 📦 ShadowStorage
 
 ### 🚀 Une librairie TypeScript/JavaScript avancée pour la gestion du stockage local et session, avec des fonctionnalités comme la synchronisation entre onglets, l'expiration automatique des données, la compression et la protection biométrique.
 
@@ -6,7 +6,7 @@
 
 ## 📌 Objectif
 
-GhostStorage est un package TypeScript/JavaScript pour gérer efficacement le stockage local et en session, avec des fonctionnalités avancées comme :
+ShadowStorage est un package TypeScript/JavaScript pour gérer efficacement le stockage local et en session, avec des fonctionnalités avancées comme :
 
 - **Stockage et récupération optimisée**
 - **Expiration automatique des données**
@@ -82,13 +82,13 @@ GhostStorage est un package TypeScript/JavaScript pour gérer efficacement le st
 ## 📥 Installation
 
 ```bash
-npm install ghost-storage
+npm install shadow-storage
 ```
 
 Ou avec Yarn :
 
 ```bash
-yarn add ghost-storage
+yarn add shadow-storage
 ```
 
 ---
@@ -98,7 +98,7 @@ yarn add ghost-storage
 ### 🔹 Stocker une donnée avec expiration
 
 ```typescript
-import { storageHelper } from "ghost-storage";
+import { storageHelper } from "shadow-storage";
 
 // Stocker une donnée pendant 1 heure (3600000 ms)
 storageHelper.set("user", { name: "Hustler" }, "local", 3600000);
@@ -149,8 +149,8 @@ Vous pouvez également tester manuellement en utilisant la console du navigateur
 
 Les contributions sont les bienvenues ! Pour contribuer :
 
-1. **Fork** le projet ([Lien vers le repo](https://github.com/adandeigor/ghost-storage))
-2. **Clone** le repo : `git clone https://github.com/adandeigor/ghost-storage.git`
+1. **Fork** le projet ([Lien vers le repo](https://github.com/adandeigor/shadow-storage))
+2. **Clone** le repo : `git clone https://github.com/adandeigor/shadow-storage.git`
 3. **Crée une branche** : `git checkout -b ma-feature`
 4. **Fais tes modifications** et commit : `git commit -m "Ajout de ma feature"`
 5. **Push** : `git push origin ma-feature`
